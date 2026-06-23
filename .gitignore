@@ -1,0 +1,46 @@
+.env
+
+# Node modules
+node_modules/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Runtime/PIDs
+pids/
+*.pid
+
+# Coverage
+coverage/
+*.lcov
+
+# Build / output
+dist/
+build/
+public/temp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Misc
+.eslintcache
+.nyc_output/
+*.tgz
+*.pem
